@@ -31,4 +31,5 @@ if (require.main === module) {
   });
 }
 
-module.exports = { add };
+module.exports = app;
+module.exports.add = add;

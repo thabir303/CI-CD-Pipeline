@@ -1,3 +1,4 @@
+//test/index.test.js
 const { add } = require('../index');
 
 test('adds two numbers correctly', () => {
