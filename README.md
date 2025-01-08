@@ -16,7 +16,7 @@ This project demonstrates how to set up a simple **Node.js** application with **
      - Deploying the application to Vercel on every push or pull request to the `main` branch.
 
 3. **Deployed on Vercel**:
-   - Live Application: [https://ci-cd-pipeline-eight.vercel.app](https://ci-cd-pipeline-eight.vercel.app)
+   - Live Application: [https://ci-cd-pipeline-intro.vercel.app](https://ci-cd-pipeline-intro.vercel.app/)
 
 
 ## API Endpoints
