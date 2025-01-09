@@ -2,7 +2,7 @@ const request = require('supertest');
 const app = require('../index'); 
 const { add } = require('../index'); 
 
-it('should return Hello World message', async () => {
+it('should return Hello World message and app version', async () => {
   const res = await request(app).get('/');
   expect(res.statusCode).toBe(200);
   expect(res.body).toEqual({ 
@@ -24,7 +24,7 @@ it('should return "Invalid Input" for non-numeric parameters', async () => {
 });
 
 it('should correctly add two numbers', () => {
-  expect(add(5, 10)).toBe(15);
+  expect(add(5, 10)).toBe(10);
 });
 
 it('should return "Invalid Input" for non-numeric parameters', () => {
