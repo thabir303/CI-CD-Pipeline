@@ -24,7 +24,7 @@ it('should return "Invalid Input" for non-numeric parameters', async () => {
 });
 
 it('should correctly add two numbers', () => {
-  expect(add(5, 10)).toBe(10);
+  expect(add(5, 10)).toBe(15);
 });
 
 it('should return "Invalid Input" for non-numeric parameters', () => {
